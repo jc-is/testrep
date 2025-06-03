@@ -1,8 +1,7 @@
-<div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
-  <video class="w-full rounded mb-4" controls>
-    <source src="{{videoUrl}}" type="video/mp4" />
-    Seu navegador não suporta vídeos.
-  </video>
-  <h3 class="text-lg font-semibold mb-2">{{titulo}}</h3>
-  <a href="{{pdfUrl}}" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded">Abrir PDF</a>
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+  <video src="{{videoUrl}}" controls class="w-full h-48 object-cover"></video>
+  <div class="p-4">
+    <h3 class="text-lg font-semibold mb-2">{{titulo}}</h3>
+    <a href="{{pdfUrl}}" target="_blank" class="text-blue-600 hover:underline">Abrir PDF</a>
+  </div>
 </div>
