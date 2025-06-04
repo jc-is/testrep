@@ -1,21 +1,21 @@
 {
   "treinamentos-section": [
     {
-      "videoUrl": "",
-      "titulo": "",
-      "pdfUrl": ""
+      "videoUrl": "https://www.youtube.com/embed/video1",
+      "titulo": "Introdução aos Treinamentos",
+      "pdfUrl": "https://site.com/treinamentos/introducao.pdf"
     },
     {
-      "videoUrl": "",
-      "titulo": "",
-      "pdfUrl": ""
+      "videoUrl": "https://www.youtube.com/embed/video2",
+      "titulo": "Curso Avançado",
+      "pdfUrl": "https://site.com/treinamentos/avancado.pdf"
     }
   ],
   "composer-section": [
     {
-      "videoUrl": "",
-      "titulo": "",
-      "pdfUrl": ""
+      "videoUrl": "https://www.youtube.com/embed/composer1",
+      "titulo": "Instalando Composer",
+      "pdfUrl": "https://site.com/composer/instalacao.pdf"
     }
   ],
   "photocenter-section": [],
