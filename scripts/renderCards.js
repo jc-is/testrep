@@ -46,5 +46,11 @@ async function loadAndRenderCards() {
   }
 }
 
+//Script para toogle menubar
+document.getElementById('toggleMenu').addEventListener('click', () => {
+  document.getElementById('sidebar').classList.toggle('-translate-x-full');
+});
+
+
 // Inicia o carregamento
 loadAndRenderCards();

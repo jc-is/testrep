@@ -1,7 +1,29 @@
 <header class="bg-white shadow sticky top-0 z-50">
-  <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-    <h1 class="text-xl font-bold">Suporte R7 - Central de Ajuda</h1>
-    <!-- Botão Chamado ou menu -->
-    <button class="bg-blue-600 text-white px-4 py-2 rounded">Abrir Chamado</button>
+  <div class="container mx-auto px-4 py-3 grid grid-cols-3 items-center">
+    
+    <!-- Botão Hamburguer (esquerda) -->
+    <button id="toggleMenu" class="justify-self-start p-2">
+      <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <!-- Título Central -->
+    <h1 class="text-center text-xl font-bold">Suporte R7 - Central de Ajuda</h1>
+
+    <!-- Botão Abrir Chamado (direita) -->
+    <button class="justify-self-end bg-blue-600 text-white px-4 py-2 rounded">
+      Abrir Chamado
+    </button>
+
   </div>
 </header>
+
+<!-- Menu Lateral -->
+<aside id="sidebar" class="fixed top-0 left-0 h-full w-64 bg-white shadow-md p-4 overflow-y-auto transform -translate-x-full transition-transform duration-300 z-40">
+  <h2 class="text-lg font-semibold mb-4">Navegação</h2>
+  <nav id="menu-content" class="space-y-4">
+    <!-- Conteúdo injetado via JS -->
+  </nav>
+</aside>
